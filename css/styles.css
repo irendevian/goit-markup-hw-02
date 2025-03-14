@@ -40,13 +40,16 @@ ul {
   color: #404bbf;
 }
 
-.contact-links .link {
+.contact-links {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+}
+
+.link {
+  color: #2e2f42;
 }
 
 .contact-links .link:hover,
@@ -74,6 +77,7 @@ ul {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+  cursor: pointer;
 }
 
 .btn:hover,
@@ -125,4 +129,5 @@ ul {
 
 .text-footer {
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
